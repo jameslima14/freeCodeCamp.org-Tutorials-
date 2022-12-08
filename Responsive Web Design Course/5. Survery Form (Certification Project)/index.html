@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Record Store Survey</title>
+  </head>
+
+ <body>
+
+   <div class="container">
+
+    <h1 id="title">Record Store Survey</h1>
+    <p id="description">Thank you for completing this survey to help us improve our store!</p>
+
+
+  <form id="survey-form">
+
+   <div class="form">
+      <label id="name-label"><p>Name</p></label>
+      <input id="name" type="text" placeholder="Enter your name" required></input>
+   </div>
+
+   <div class="form">
+      <label id="email-label"><p>E-mail</p></label>
+      <input id="email" type="email" placeholder="Enter your E-mail" required></input>
+   </div>
+
+   <div class="form">
+      <label id="number-label"><p>Age</p></label>
+      <input id="number" type="number" min="10" max="100" placeholder="Age" ></input>
+   </div>
+
+   <div class="form">
+     <p>What is your favorite genre?</p>
+     <select name ="genres" id="dropdown">
+       <option disabled selected>Genre</option>
+       <option value="rock">Rock</option>
+       <option value="hip-hop">Hip-Hop</option>
+       <option value="country">Country</option>
+       <option value="r-b">R&B</option>
+       <option value="jazz">Jazz</option>
+       <option value="metal">Metal</option>
+       <option value="other">Other</option>
+     </select>
+   </div>
+
+   <div class="form">
+     <p>How do you like to enjoy music?</p>
+     <label>
+       <input type="radio" name="radio" value="streaming" class="input-radio"> Streaming Service</input><br>
+       <input type="radio" name="radio" value="vinyl" class="input-radio"> Vinyl Records</input><br>
+       <input type="radio" name="radio" value="cds" class="input-radio"> CD's</input>
+     </label>
+   </div>
+
+   <div class="form">
+     <p>Which decade of music do you prefer?</p>
+
+     <label>
+       <input type="checkbox" name="prefer" class="input-checkbox" value="50s"> 1950's
+     </label>
+
+     <label>
+       <input type="checkbox" name="prefer" class="input-checkbox" value="60s"> 1960's
+     </label>
+
+     <label>
+       <input type="checkbox" name="prefer" class="input-checkbox" value="70s"> 1970's
+     </label>
+
+     <label>
+       <input type="checkbox" name="prefer" class="input-checkbox" value="80s"> 1980's
+     </label>
+
+     <label>
+       <input type="checkbox" name="prefer" class="input-checkbox" value="90s"> 1990's
+     </label>
+
+     <label>
+       <input type="checkbox" name="prefer" class="input-checkbox" value="00s"> 2000's
+     </label>
+
+     <label>
+       <input type="checkbox" name="prefer" class="input-checkbox" value="10s"> 2010's
+     </label>
+   </div>
+
+   <div class="form">
+     <p>Who's your favorite artist(s)?</p>
+     <textarea id="fav-artist" class="input-text" name="comment" placeholder="Enter your artist here"></textarea>
+   </div>
+
+   <div class="form">
+     <button type="submit" id="submit" class="submit-button"> Submit </button>
+   </div>
+
+   </form>
+  </div>
+  </body>
+</html>
