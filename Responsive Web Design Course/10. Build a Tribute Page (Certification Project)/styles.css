@@ -21,7 +21,7 @@ p {
 }
 
 #body-text {
-    padding: 0 auto;
+    padding: 20px 100px;
     margin: 15px;
 }
 
@@ -43,6 +43,7 @@ p {
 #img-caption {
     display: flex;
     margin: 15px 0 5px 0;
+    font-style: italic;
     align-items: center;
     justify-content: center;
 }
